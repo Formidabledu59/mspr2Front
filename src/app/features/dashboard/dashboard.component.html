@@ -1,0 +1,20 @@
+<div class="dashboard-container">
+  <h1 class="dashboard-title">Pandémies enregistrées</h1>
+
+  <div class="card-grid">
+    <div class="stat-card" *ngFor="let pandemie of pandemies">
+      <h2>{{ pandemie.nom_pandemie }}</h2>
+      <p><strong>🗓 Début :</strong> {{ pandemie.date_debut | date:'longDate' }}</p>
+      <p><strong>⛔ Fin :</strong> {{ pandemie.date_fin ? (pandemie.date_fin | date:'longDate') : 'Toujours en cours' }}</p>
+      <p><strong>📖 Description :</strong></p>
+      <p>{{ pandemie.description }}</p>
+    </div>
+  </div>
+
+  <section class="about-section">
+    <h3>🌐 À propos</h3>
+    <p>
+      Ce tableau de bord présente toutes les pandémies enregistrées dans le système, avec leurs dates et descriptions.
+    </p>
+  </section>
+</div>

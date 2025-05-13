@@ -1,0 +1,97 @@
+.
+├── .angular
+│   └── cache
+│       └── 19.2.6
+│           └── frontend
+│               ├── .tsbuildinfo
+│               └── vite
+│                   ├── deps
+│                   │   ├── _metadata.json
+│                   │   ├── @angular_common_http.js
+│                   │   ├── @angular_common_http.js.map
+│                   │   ├── @angular_common.js
+│                   │   ├── @angular_common.js.map
+│                   │   ├── @angular_core.js
+│                   │   ├── @angular_core.js.map
+│                   │   ├── @angular_forms.js
+│                   │   ├── @angular_forms.js.map
+│                   │   ├── @angular_platform-browser.js
+│                   │   ├── @angular_platform-browser.js.map
+│                   │   ├── @angular_router.js
+│                   │   ├── @angular_router.js.map
+│                   │   ├── chunk-3OV72XIM.js
+│                   │   ├── chunk-3OV72XIM.js.map
+│                   │   ├── chunk-6SXA4YSB.js
+│                   │   ├── chunk-6SXA4YSB.js.map
+│                   │   ├── chunk-DPRHCXLO.js
+│                   │   ├── chunk-DPRHCXLO.js.map
+│                   │   ├── chunk-KRHVNTB2.js
+│                   │   ├── chunk-KRHVNTB2.js.map
+│                   │   ├── chunk-QSJBDRYE.js
+│                   │   ├── chunk-QSJBDRYE.js.map
+│                   │   ├── chunk-WXVMLRAW.js
+│                   │   ├── chunk-WXVMLRAW.js.map
+│                   │   ├── highcharts-angular.js
+│                   │   ├── highcharts-angular.js.map
+│                   │   ├── highcharts.js
+│                   │   ├── highcharts.js.map
+│                   │   └── package.json
+│                   └── deps_ssr
+│                       ├── _metadata.json
+│                       └── package.json
+├── .editorconfig
+├── .gitignore
+├── angular.json
+├── Architecture
+│   ├── generateArchitecture.js
+│   └── README.md
+├── package-lock.json
+├── package.json
+├── proxy.conf.json
+├── public
+│   ├── favicon.ico
+│   └── who-emblem.ico
+├── README.md
+├── src
+│   ├── app
+│   │   ├── app.component.css
+│   │   ├── app.component.html
+│   │   ├── app.component.ts
+│   │   ├── app.config.ts
+│   │   ├── app.routes.ts
+│   │   ├── assets
+│   │   │   └── oms-logo.png
+│   │   └── features
+│   │       ├── dashboard
+│   │       │   ├── dashboard.component.css
+│   │       │   ├── dashboard.component.html
+│   │       │   ├── dashboard.component.ts
+│   │       │   └── dashboard.routes.ts
+│   │       ├── prediction
+│   │       │   ├── prediction.component.css
+│   │       │   ├── prediction.component.html
+│   │       │   ├── prediction.component.spec.ts
+│   │       │   ├── prediction.component.ts
+│   │       │   └── prediction.routes.ts
+│   │       ├── services
+│   │       │   ├── ia.service.ts
+│   │       │   ├── pandemie.service.ts
+│   │       │   ├── pays.service.ts
+│   │       │   └── stat-pandemie.service.ts
+│   │       ├── stats
+│   │       │   ├── stats.component.css
+│   │       │   ├── stats.component.html
+│   │       │   ├── stats.component.ts
+│   │       │   └── stats.routes.ts
+│   │       └── users
+│   │           ├── users.component.css
+│   │           ├── users.component.html
+│   │           ├── users.component.ts
+│   │           └── users.routes.ts
+│   ├── index.html
+│   ├── main.ts
+│   ├── proxy.conf.json
+│   └── styles.css
+├── tsconfig.app.json
+├── tsconfig.json
+└── tsconfig.spec.json

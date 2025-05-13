@@ -1,0 +1,36 @@
+<div class="cyber-container">
+  <h2 class="cyber-title">🧬 Analyse Prédictive</h2>
+
+  <form (ngSubmit)="onSubmit()" #f="ngForm" class="hex-form">
+    <div class="hex-grid">
+      <div *ngFor="let key of objectKeys(form)" class="hex">
+        <div class="hex-inner">
+          <div class="hex-label">{{ key.replaceAll('_', ' ') | titlecase }}</div>
+
+          <div class="hex-fill-container">
+            <div 
+              class="hex-fill" 
+              [style.height.%]="getPercentage(form[key], key)"
+            ></div>
+          </div>
+
+          <input
+            type="range"
+            [min]="getMin(key)"
+            [max]="getMax(key)"
+            [step]="getStep(key)"
+            [value]="form[key]"
+            (input)="updateValue($event, key)"
+            class="hex-slider"
+          />
+
+          <div class="hex-value">{{ form[key] }}</div>
+        </div>
+      </div>
+    </div>
+
+    <button class="submit-button" type="submit">🚀 Lancer Prédiction</button>
+  </form>
+
+  <p *ngIf="result" class="result">Classe prédite : <strong>{{ result }}</strong></p>
+</div>
