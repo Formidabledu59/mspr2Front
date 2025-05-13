@@ -46,7 +46,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/frontend/"
+              "baseHref": "/mspr2Front/"
             },
             "development": {
               "optimization": false,
