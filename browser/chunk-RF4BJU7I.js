@@ -1,0 +1,1 @@
+import{Ea as s,Ta as n,Ua as r,cb as i}from"./chunk-TUNOQRBW.js";var e=class o{static \u0275fac=function(t){return new(t||o)};static \u0275cmp=s({type:o,selectors:[["app-users"]],decls:3,vars:0,consts:[[1,"container"],[1,"title"]],template:function(t,a){t&1&&(n(0,"div",0)(1,"h1",1),i(2,"Utilisateurs"),r()())},encapsulation:2})};var u=[{path:"",component:e}];export{u as default};
