@@ -4,6 +4,8 @@
 │       └── 19.2.6
 │           └── frontend
 │               ├── .tsbuildinfo
+│               ├── angular-compiler.db
+│               ├── angular-compiler.db-lock
 │               └── vite
 │                   ├── deps
 │                   │   ├── _metadata.json
@@ -40,11 +42,33 @@
 │                       ├── _metadata.json
 │                       └── package.json
 ├── .editorconfig
+├── .github
+│   └── workflows
+│       └── deploy.yml
 ├── .gitignore
 ├── angular.json
 ├── Architecture
 │   ├── generateArchitecture.js
 │   └── README.md
+├── architecture.txt
+├── dist
+│   └── frontend
+│       ├── 3rdpartylicenses.txt
+│       ├── browser
+│       │   ├── chunk-AYC5VHBA.js
+│       │   ├── chunk-G4KGDVGM.js
+│       │   ├── chunk-M755GROE.js
+│       │   ├── chunk-OMVECEQU.js
+│       │   ├── chunk-RF4BJU7I.js
+│       │   ├── chunk-TUNOQRBW.js
+│       │   ├── chunk-WNHVHM2N.js
+│       │   ├── favicon.ico
+│       │   ├── index.html
+│       │   ├── main-OIRAKTUK.js
+│       │   ├── polyfills-FFHMD2TL.js
+│       │   ├── styles-5INURTSO.css
+│       │   └── who-emblem.ico
+│       └── prerendered-routes.json
 ├── package-lock.json
 ├── package.json
 ├── proxy.conf.json
