@@ -3,7 +3,7 @@ name: Deploy Angular app to GitHub Pages
 on:
   push:
     branches:
-      - main  # ou master selon ta branche par défaut
+      - main  # ou 'master' selon ta branche par défaut
 
 jobs:
   build-and-deploy:
@@ -19,13 +19,13 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm ci  
-        
-      - name: Build project
-        run: npm run build -- --configuration production
+        run: npm install
+
+      - name: Build Angular app for production
+        run: npm run build -- --configuration production --base-href /mspr2Front/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist/frontend
+          folder: dist/frontend/browser
