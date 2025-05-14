@@ -1,14 +1,14 @@
 {
   "name": "frontend",
   "version": "0.0.0",
-"scripts": {
-  "ng": "ng",
-  "start": "ng serve",
-  "build": "ng build",
-  "test": "ng test",
-  "lint": "ng lint",
-  "preview": "http-server dist/frontend/browser"
-},
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "preview": "http-server dist/frontend/browser"
+  },
   "private": true,
   "dependencies": {
     "@angular/common": "^19.2.0",

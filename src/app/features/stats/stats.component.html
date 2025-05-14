@@ -1,3 +1,4 @@
+<!-- stats.component.html -->
 <div class="container">
   <h1 class="title">Statistiques des Pandémies</h1>
 
@@ -34,7 +35,7 @@
   <div class="button-container">
     <button class="ok-button" (click)="handleOkClick()">OK</button>
   </div>
-  <!-- 🧾 Résumé des données -->
+
   <div class="summary-cards" *ngIf="chartVisible">
     <div class="summary-card cases">
       <div class="dot blue"></div>
@@ -56,6 +57,7 @@
       <div class="value">{{ totalRecoveries }}</div>
       <div class="unit">total</div>
     </div>
+  </div>
 
   <div class="chart-container" *ngIf="chartVisible">
     <highcharts-chart
@@ -65,7 +67,4 @@
       style="width: 100%; height: 400px; display: block;">
     </highcharts-chart>
   </div>
-
-
 </div>
-
